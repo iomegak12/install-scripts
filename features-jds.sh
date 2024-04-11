@@ -8,7 +8,8 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenki
  
 sudo apt-get update -y
 sudo apt-get install -y jenkins
-sudo systemctl status jenkins
+
+sudo systemctl start jenkins
  
 sudo apt update -y
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
