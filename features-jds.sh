@@ -18,4 +18,4 @@ apt-cache policy docker-ce -y
 sudo apt install docker-ce -y
 #sudo systemctl status docker
 sudo chmod 777 /var/run/docker.sock
-docker run -d - name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
